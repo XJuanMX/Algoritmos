@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background-image: url(../Img/Fondo\ Negro1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 110vh;
+}
+h1{
+    color: rgb(225, 225, 225);
+    font-size: 50px;
+    margin-top: 20px;
+    text-shadow: 5px 5px rgb(114, 114, 114);
+}
+h2{
+    color: rgb(225, 225, 225);
+    font-size: 50px;
+    margin-top: 50px;
+    text-shadow: 5px 5px rgb(114, 114, 114);
+}
+p{
+    color: rgb(197, 197, 197);
+    font-size: 30px;
+    margin-top: 50px;
+}
+button {
+    padding: 10px 30px;
+    margin: 20px;
+    background: rgb(231, 231, 231);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+    transition: 0.5s;
+}
+button:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border: rgb(255, 255, 255);
+}
